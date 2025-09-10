@@ -24,10 +24,10 @@ Bonus: Add support for market orders, partial fills, and real-time trade logging
 6. Main Function: Create a main function to simulate adding orders and matching them, demonstrating the functionality of the order book.
 */
 
-#include "Order.hpp"
-#include "OrderBook.hpp"
-#include "MatchingEngine.hpp"
-#include "TradeLogger.hpp"
+#include "include/Order.hpp"
+#include "include/OrderBook.hpp"
+#include "include/MatchingEngine.hpp"
+#include "include/TradeLogger.hpp"
 #include <iostream>
 
 using namespace std;
